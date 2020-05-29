@@ -426,9 +426,9 @@ function createUser() {
 -Manager '$ManagerUsername' 
 -AccountPassword $(ConvertTo-SecureString $Password.Text -AsPlainText -Force) 
 -Path $fullpath
--HomePage 'www.raysbaseball.com'"
+-HomePage 'www.google.com'"
 
-        New-ADUser -SamAccountName $usernamevar -GivenName $firstnamevar -Surname $lastnamevar -Name $displaynamevar -DisplayName $displaynamevar -Description $titlevar -EmailAddress $UsernameEmail -StreetAddress  $StreetAddress -City  $City -State  $State -PostalCode  $PostalCode -Country  $Country -ScriptPath 'Slogic.bat' -HomeDrive 'U:' -HomeDirectory $homedirectoryvar -Title $titlevar -Department $departmentvar -Company $Company -Manager $ManagerUsername -AccountPassword $SecurePass -Path $fullpath -UserPrincipalName $UsernameEmail -HomePage "www.raysbaseball.com" -Enabled $True -OtherAttributes @{'ipPhone' = $extentionvar }
+        New-ADUser -SamAccountName $usernamevar -GivenName $firstnamevar -Surname $lastnamevar -Name $displaynamevar -DisplayName $displaynamevar -Description $titlevar -EmailAddress $UsernameEmail -StreetAddress  $StreetAddress -City  $City -State  $State -PostalCode  $PostalCode -Country  $Country -ScriptPath 'Slogic.bat' -HomeDrive 'U:' -HomeDirectory $homedirectoryvar -Title $titlevar -Department $departmentvar -Company $Company -Manager $ManagerUsername -AccountPassword $SecurePass -Path $fullpath -UserPrincipalName $UsernameEmail -HomePage "www.google.com" -Enabled $True -OtherAttributes @{'ipPhone' = $extentionvar }
 
         $ProgressBar1.PerformStep();
 
