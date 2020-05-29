@@ -7,4 +7,4 @@ Genrates and assigns password and extention.
 Checks if username is already taken.
 Check time of last Azure sync for hybrid enviroments.
 
-https://github.com/KuRue/AddUserAD/blob/master/Image.jpg?raw=true
+![alt text](https://github.com/KuRue/AddUserAD/blob/master/Image.jpg?raw=true)
