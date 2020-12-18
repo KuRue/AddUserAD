@@ -8,3 +8,6 @@ Create new AD users based off existing positions within your org.
 * Checks time of last Azure sync for hybrid enviroments. <br/>
 
 ![alt text](https://github.com/KuRue/AddUserAD/blob/master/Image.jpg?raw=true)
+
+Latest releases here:
+https://github.com/KuRue/AddUserAD/releases
